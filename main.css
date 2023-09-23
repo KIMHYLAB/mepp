@@ -1,0 +1,39 @@
+#top {
+    background-color: gray;
+    padding-left: 50px;
+    height: 50px;
+    margin: 0px;
+    position: fixed;
+    left: 0; top: 0; right: 0;
+    z-index: 9000;
+}
+#top > h2 {
+    color: white;
+    line-height: 50px;
+    margin: 0px;
+}
+#top2 > h4 > *{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+#top2 > h4 > *:hover {color: skyblue;}
+#top2 {
+    background-color: darkgray;
+    padding-left: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 30px;
+    position: fixed;
+    left: 0; top: 50px; right: 0;
+    z-index: 8999;
+}
+#top2 > h4 {
+    line-height: 30px;
+    margin: 0px;
+}
+#top2 > h4 > a {
+    margin-right: 18px;
+}
